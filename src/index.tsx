@@ -5,7 +5,6 @@ import reportWebVitals from "./reportWebVitals";
 import { Theme } from "@yakad/ui";
 import Router from "./router";
 import "./assets/css/style.css";
-import "./assets/css/form.css";
 import "./assets/css/scrollbar.css";
 
 const root = ReactDOM.createRoot(

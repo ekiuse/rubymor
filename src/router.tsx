@@ -1,6 +1,5 @@
-import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { Pwa, Intro, Quran, Account, Search } from "routes";
+import { Intro } from "routes";
 
 const isPwaIntroPagePassed = (): boolean => {
     return localStorage.getItem("pwaIntroPassed") === "true";
@@ -22,23 +21,6 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Intro />} />
-                <Route
-                    path="/pwa"
-                    element={
-                        isPwaIntroPagePassed() && !isLocalhost ? (
-                            <Navigate replace to="/quran" />
-                        ) : (
-                            <Pwa />
-                        )
-                    }
-                />
-                <Route
-                    path="/quran"
-                    element={<Navigate replace to="/quran/1" />}
-                />
-                <Route path="/quran/:id" element={<Quran />} />
-                <Route path="/account/*" element={<Account />} />
-                <Route path="/search" element={<Search />} />
             </Routes>
         </BrowserRouter>
     );
