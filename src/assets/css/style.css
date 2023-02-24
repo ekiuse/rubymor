@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Hafs";
+    src: local("Hafs"),
+        url(../Fonts/a565b17e58e287300f1cd79645ae1770.woff) format("woff"),
+        url(../Fonts/a565b17e58e287300f1cd79645ae1770.ttf) format("ttf"),
+        url(../Fonts/a565b17e58e287300f1cd79645ae1770.woff2) format("woff2");
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Tahoma;
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+:-webkit-any-link {
+    color: inherit;
+    text-decoration: none;
+}
