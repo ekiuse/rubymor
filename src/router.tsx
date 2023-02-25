@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { Intro } from "routes";
+import { Intro } from "./routes";
 
 const isPwaIntroPagePassed = (): boolean => {
     return localStorage.getItem("pwaIntroPassed") === "true";
