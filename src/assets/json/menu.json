@@ -8,14 +8,12 @@
                     "name": "املت ایرانی",
                     "dicribtion": "دو عدد تخم مرغ با گوجه",
                     "price": 50,
-                    "price_double": 20,
                     "image": 1
                 },
                 {
                     "name": "بشقاب سنتی",
                     "dicribtion": "تخم مرغ-خرما-پنیر-ارده-شیره انگور-گردو",
                     "price": 60,
-                    "price_double": 20,
                     "image": 1
                 },
                 {
@@ -24,11 +22,43 @@
                     "price": 50,
                     "price_double": 20,
                     "image": 1
+                },
+                {
+                    "name": "بdgtrgه",
+                    "dicribtion": "سوسیس تخم مرغ-لوبیا-زیتون-کاهو-میوه-آبمیوه",
+                    "price": 50,
+                    "image": 1
                 }
             ]
         },
         {
             "name": "میان وعده",
+            "list": [
+                {
+                    "name": "سیب زمینی خورد کرده",
+                    "dicribtion": "دو عدد سیب زمینی",
+                    "price": 50,
+                    "price_double": 20,
+                    "image": 1
+                },
+                {
+                    "name": "سیب زمینی قارچ و پنیر",
+                    "dicribtion": "با پنیر پیتزا پ قارچ",
+                    "price": 70,
+                    "price_double": 20,
+                    "image": 1
+                },
+                {
+                    "name": "نان سیر",
+                    "dicribtion": "دو عدد نان سیر",
+                    "price": 40,
+                    "price_double": 20,
+                    "image": 1
+                }
+            ]
+        },
+        {
+            "name": "غذا",
             "list": [
                 {
                     "name": "سیب زمینی خورد کرده",
