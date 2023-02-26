@@ -13,11 +13,13 @@ import {
 } from "@yakad/ui";
 import { useNavigate } from "react-router-dom";
 import Categories from "./categories";
+import Header from "./appbar";
 
 function Intro() {
     const navigate = useNavigate();
     return (
         <Page>
+            <Header />
             <Main>
                 <Categories />
             </Main>

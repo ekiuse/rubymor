@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <React.StrictMode>
-        <Theme color="pink">
+        <Theme color="pink" dir="rtl">
             <Router />
         </Theme>
     </React.StrictMode>
