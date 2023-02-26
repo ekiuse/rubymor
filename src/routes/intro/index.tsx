@@ -9,35 +9,14 @@ import {
     GridItem,
 } from "@yakad/ui";
 import { useNavigate } from "react-router-dom";
+import MenuLists from "../../assets/json/menu.json";
+import images from "../../assets/images/index";
 
-interface MenuItems {
-    name: string;
-    description: string;
-    price: number;
-}
-
-const MenuLists: Array<MenuItems> = [
-    {
-        name: "test",
-        description: "The Opener",
-        price: 15000,
-    },
-    {
-        name: "test",
-        description: "The Opener",
-        price: 15000,
-    },
-    {
-        name: "test",
-        description: "The Opener",
-        price: 15000,
-    },
-    {
-        name: "test",
-        description: "The Opener",
-        price: 15000,
-    },
-];
+// interface MenuItems {
+//     name: string;
+//     description: string;
+//     price: number;
+// }
 
 function Intro() {
     const navigate = useNavigate();
@@ -52,9 +31,11 @@ function Intro() {
                         {MenuLists.map((item, index) => (
                             <GridItem
                                 xl={4}
-                                sm={6}
-                                style={{ height: "5rem", background: "red" }}
+                                md={6}
+                                sm={12}
+                                style={{ minHeight: "5rem", background: "red" }}
                             >
+                                <img width="100%" src={images[item.image]} />
                                 {item.name}
                             </GridItem>
                         ))}
