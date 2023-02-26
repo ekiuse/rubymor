@@ -16,7 +16,7 @@ import MenuLists from "../../assets/json/menu.json";
 
 function Categories() {
     return (
-        <Container maxWidth="md">
+        <Container maxWidth="lg" style={{ padding: "4rem 2rem" }}>
             <Row>
                 {MenuLists.categories.map(item => (
                     <Button variant="filled">{item.name}</Button>
