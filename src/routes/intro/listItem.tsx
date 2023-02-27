@@ -14,7 +14,6 @@ interface ListProps extends React.HTMLAttributes<HTMLElement> {
 function ListItem(props: ListProps) {
     return (
         <Card {...props} style={{ padding: "0", backgroundColor: "#222", overflow: "hidden" }}>
-            {" "}
             <Row style={{ direction: "rtl" }}>
                 <img
                     src={
