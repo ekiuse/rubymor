@@ -24,8 +24,10 @@
                     "image": 1
                 },
                 {
-                    "name": "بdgtrgه",
-                    "dicribtion": "سوسیس تخم مرغ-لوبیا-زیتون-کاهو-میوه-آبمیوه",
+
+                 
+                    "name": "فرانسه",
+                    "dicribtion": "تخم مرغ-مرغ-قارچ-پنیر موزارلا-کلم-آبمیوه",
                     "price": 50,
                     "image": 1
                 }
@@ -36,23 +38,38 @@
             "list": [
                 {
                     "name": "سیب زمینی خورد کرده",
-                    "dicribtion": "دو عدد سیب زمینی",
                     "price": 50,
                     "price_double": 20,
                     "image": 1
                 },
                 {
                     "name": "سیب زمینی قارچ و پنیر",
-                    "dicribtion": "با پنیر پیتزا پ قارچ",
                     "price": 70,
-                    "price_double": 20,
                     "image": 1
                 },
                 {
                     "name": "نان سیر",
-                    "dicribtion": "دو عدد نان سیر",
                     "price": 40,
-                    "price_double": 20,
+                    "image": 1
+                },
+                {
+                    "name": "اسنک مرغ",
+                    "price": 0,
+                    "image": 1
+                },
+                {
+                    "name": "اسنک گوشت",
+                    "price": 0,
+                    "image": 1
+                },
+                {
+                    "name": "بشقاب مزه",
+                    "price": 90,
+                    "image": 1
+                },
+                {
+                    "name": "سیب زمینی تنوری",
+                    "price": 70,
                     "image": 1
                 }
             ]
