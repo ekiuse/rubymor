@@ -2,58 +2,526 @@
     "name": "rubymor",
     "categories": [
         {
+            "name": "بار اسپرسو",
+            "list": [
+                {
+                    "name": "اسپرسو",
+                    "price": 20,
+                    "price_double": 32,
+                    "image": 0
+                },
+                {
+                    "name": "امریکانو",
+                    "price": 28,
+                    "price_double": 32,
+                    "image": 0
+                },
+                {
+                    "name": "کاپوچینو",
+                    "price": 35,
+                    "price_double": 40,
+                    "image": 0
+                },
+                {
+                    "name": "لته",
+                    "price": 38,
+                    "price_double": 43,
+                    "image": 0
+                },
+                {
+                    "name": "فلت وایت",
+                    "price": 35,
+                    "price_double": 40,
+                    "image": 0
+                },
+                {
+                    "name": "موکا",
+                    "price": 40,
+                    "price_double": 45,
+                    "image": 0
+                },
+                {
+                    "name": "موکاچینو",
+                    "price": 48,
+                    "price_double": 53,
+                    "image": 0
+                },
+                {
+                    "name": "ماکیاتو",
+                    "price": 40,
+                    "price_double": 45,
+                    "image": 0
+                },
+                {
+                    "name": "رومانو",
+                    "price": 30,
+                    "price_double": 35,
+                    "image": 0
+                },
+                {
+                    "name": "هات اسپرسو",
+                    "price": 65,
+                    "price_double": 70,
+                    "image": 0
+                },
+                {
+                    "name": "وایت اسپرسو",
+                    "price": 65,
+                    "price_double": 70,
+                    "image": 0
+                },
+                {
+                    "name": "هانی کافی",
+                    "price": 35,
+                    "price_double": 40,
+                    "image": 0
+                },
+                {
+                    "name": "شیر نسکافه",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "شیر کاکائو",
+                    "price": 38,
+                    "image": 0
+                },
+                {
+                    "name": "هات چاکلت",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "وایت چاکلت",
+                    "price": 40,
+                    "price_double": 53,
+                    "image": 0
+                },
+                {
+                    "name": "میکس چاکلت",
+                    "price": 50,
+                    "image": 0
+                },
+                {
+                    "name": "دالگونا",
+                    "price": 45,
+                    "image": 0
+                },
+                {
+                    "name": "ماچا",
+                    "price": 45,
+                    "image": 0
+                },
+                {
+                    "name": "لته ماچا",
+                    "price": 55,
+                    "image": 0
+                },
+                {
+                    "name": "ماسالا",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "کوک",
+                    "price": 45,
+                    "image": 0
+                },
+                {
+                    "name": "شیر عسل",
+                    "price": 38,
+                    "image": 0
+                },
+                {
+                    "name": "شیر داغ",
+                    "price": 20,
+                    "image": 0
+                },
+                {
+                    "name": "کوکووایت",
+                    "price": 50,
+                    "image": 0
+                }
+            ]
+        },
+        {
+            "name": "قهوه دمی",
+            "list": [
+                {
+                    "name": "ترک",
+                    "price": 32,
+                    "image": 0
+                },
+                {
+                    "name": "فرانسه",
+                    "price": 60,
+                    "image": 0
+                },
+                {
+                    "name": "قهوه شیخ",
+                    "price": 38,
+                    "image": 0
+                },
+                {
+                    "name": "قهوه مراکشی",
+                    "price": 35,
+                    "image": 0
+                }
+            ]
+        },
+        {
+            "name": "بار سرد",
+            "list": [
+                {
+                    "name": "ایس آمریکانو",
+                    "price": 33,
+                    "price_double": 38,
+                    "image": 0
+                },
+                {
+                    "name": "آیس لته",
+                    "price": 40,
+                    "price_double": 45,
+                    "image": 0
+                },
+                {
+                    "name": "آیس موکا",
+                    "price": 45,
+                    "price_double": 50,
+                    "image": 0
+                },
+                {
+                    "name": "آیس ماکیاتو",
+                    "price": 45,
+                    "price_double": 50,
+                    "image": 0
+                },
+                {
+                    "name": "آفوگاتو",
+                    "price": 50,
+                    "image": 0
+                },
+                {
+                    "name": "کوک اسپرسو",
+                    "price": 45,
+                    "price_double": 50,
+                    "image": 0
+                },
+                {
+                    "name": "هایپ اسپرسو",
+                    "price": 55,
+                    "price_double": 60,
+                    "image": 0
+                },
+                {
+                    "name": "آبجو اسپرسو",
+                    "price": 45,
+                    "price_double": 50,
+                    "image": 0
+                },
+                {
+                    "name": "سرویس آبجو",
+                    "price": 130,
+                    "image": 0
+                }
+            ]
+        },
+        {
+            "name": "ماکتل",
+            "list": [
+                {
+                    "name": "پنسل",
+                    "dicribtion": "،سیروس ،نارگیل ،عرق مرکبات پنیرک لیموناد،گریپ فروت ",
+                    "price": 75,
+                    "image": 0
+                },
+                {
+                    "name": "منگو لوند",
+                    "dicribtion": "عصاره انبه،بلوکا،اسماتو،نعنا،پذیرگ",
+                    "price": 50,
+                    "image": 0
+                },
+                {
+                    "name": "پرشین بلو",
+                    "dicribtion": "آب الورا،بلوگا،راشایو،شیره صودا",
+                    "price": 70,
+                    "image": 0
+                },
+                {
+                    "name": "تروپیکال تاچ",
+                    "dicribtion": "عصاره اناناس ،سیب ترش،آب انبه،لیمو",
+                    "price": 70,
+                    "image": 0
+                },
+                {
+                    "name": "بلو اسکای",
+                    "dicribtion": "بلوکاراسایو، سیب ترش،لیمو ،انرژی زا",
+                    "price": 60,
+                    "image": 0
+                },
+                {
+                    "name": "موهیتو",
+                    "price": 50,
+                    "image": 0
+                },
+                {
+                    "name": "لیموناد",
+                    "price": 45,
+                    "image": 0
+                },
+                {
+                    "name": "لیموناد زنجبیل",
+                    "price": 50,
+                    "image": 0
+                }
+            ]
+        },
+        {
             "name": "صبحانه",
             "list": [
                 {
                     "name": "املت ایرانی",
                     "dicribtion": "دو عدد تخم مرغ با گوجه",
                     "price": 50,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "بشقاب سنتی",
                     "dicribtion": "تخم مرغ-خرما-پنیر-ارده-شیره انگور-گردو",
                     "price": 60,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "بشقاب  ویژه",
                     "dicribtion": "سوسیس تخم مرغ-لوبیا-زیتون-کاهو-میوه-آبمیوه",
-                    "price": 50,
+                    "price": 100,
                     "price_double": 20,
-                    "image": 1
+                    "image": 0
                 },
                 {
-                    "name": "بdgtrgه",
-                    "dicribtion": "سوسیس تخم مرغ-لوبیا-زیتون-کاهو-میوه-آبمیوه",
-                    "price": 50,
-                    "image": 1
+                    "name": "فرانسه",
+                    "dicribtion": "تخم مرغ-مرغ-قارچ-پنیر موزارلا-کلم-آبمیوه",
+                    "price": 120,
+                    "image": 0
                 }
             ]
         },
+        {
+            "name": "آبمیوه",
+            "list": [
+                {
+                    "name": "پرتغال",
+                    "price": 32,
+                    "image": 0
+                },
+                {
+                    "name": "انبه",
+                    "price": 35,
+                    "image": 0
+                },
+                {
+                    "name": "هلو",
+                    "price": 35,
+                    "image": 0
+                },
+                {
+                    "name": "آلبالو",
+                    "price": 35,
+                    "image": 0
+                },
+                {
+                    "name": "انار",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "آلوورا",
+                    "price": 50,
+                    "image": 0
+                },
+                {
+                    "name": "آبمیوه فصل",
+                    "price": 0,
+                    "image": 0
+                },
+                {
+                    "name": "ترکیبی",
+                    "price": 0,
+                    "image": 0
+                }
+            ]
+        },
+        {
+            "name": "چای و دمنوش",
+            "list": [
+                {
+                    "name": "کلاسیک",
+                    "price": 30,
+                    "image": 0
+                },
+                {
+                    "name": "چای دارچین",
+                    "price": 35,
+                    "image": 0
+                },
+                {
+                    "name": "چای سبز",
+                    "price": 32,
+                    "image": 0
+                },
+                {
+                    "name": "چای ترش",
+                    "price": 38,
+                    "image": 0
+                },
+                {
+                    "name": "انار",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "چای مخصوص روی",
+                    "dicribtion": "شیر،زعفران،گلاب،دارچین",
+                    "price": 50,
+                    "image": 0
+                },
+                {
+                    "name": "انواع دمنوش",
+                    "dicribtion": "به لیمو،سارنارنج",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "دمنوش آرامش",
+                    "price": 45,
+                    "image": 0
+                }
+            ]
+        },
+        {
+            "name": "شیک",
+            "list": [
+                {
+                    "name": "شکلات",
+                    "price": 70,
+                    "image": 0
+                },
+                {
+                    "name": "شکلات فندق",
+                    "price": 80,
+                    "image": 0
+                },
+                {
+                    "name": "موز شکلات",
+                    "price": 80,
+                    "image": 0
+                },
+                {
+                    "name": "بادام زمینی",
+                    "price": 80,
+                    "image": 0
+                },
+                {
+                    "name": "ترامیسو",
+                    "price": 85,
+                    "image": 0
+                },
+                {
+                    "name": "اسپرسو",
+                    "price": 75,
+                    "image": 0
+                },
+                {
+                    "name": "توت فرنگی",
+                    "price": 75,
+                    "image": 0
+                }
+            ]
+        },
+        {
+            "name": "اسموتی",
+            "list": [
+                {
+                    "name": "ترش",
+                    "price": 75,
+                    "image": 0
+                },
+                {
+                    "name": "پرتغال",
+                    "price": 55,
+                    "image": 0
+                },
+                {
+                    "name": "انار",
+                    "price": 65,
+                    "image": 0
+                },
+                {
+                    "name": "آناناس",
+                    "price": 70,
+                    "image": 0
+                },
+                {
+                    "name": "پنا کولادا",
+                    "price": 70,
+                    "image": 0
+                },
+                {
+                    "name": "ویژه روبیمور",
+                    "dicribtion": "سیروی،نعنا،کرن بری،پرتغال طبیعی،لیمو،بلوکا،",
+                    "price": 80,
+                    "image": 0
+                },
+                {
+                    "name": "کیک و دسر",
+                    "list": [
+                        {
+                            "name": "سوهان بستنی",
+                            "price": 70,
+                            "image": 0
+                        },
+                        {
+                            "name": "بستنی ویژه روبیمور",
+                            "price": 90,
+                            "image": 0
+                        },
         {
             "name": "میان وعده",
             "list": [
                 {
                     "name": "سیب زمینی خورد کرده",
-                    "dicribtion": "دو عدد سیب زمینی",
                     "price": 50,
-                    "price_double": 20,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "سیب زمینی قارچ و پنیر",
-                    "dicribtion": "با پنیر پیتزا پ قارچ",
                     "price": 70,
-                    "price_double": 20,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "نان سیر",
-                    "dicribtion": "دو عدد نان سیر",
                     "price": 40,
-                    "price_double": 20,
-                    "image": 1
+                    "image": 0
+                },
+                {
+                    "name": "اسنک مرغ",
+                    "price": 0,
+                    "image": 0
+                },
+                {
+                    "name": "اسنک گوشت",
+                    "price": 0,
+                    "image": 0
+                },
+                {
+                    "name": "بشقاب مزه",
+                    "price": 90,
+                    "image": 0
+                },
+                {
+                    "name": "سیب زمینی تنوری",
+                    "price": 70,
+                    "image": 0
                 }
             ]
         },
@@ -61,27 +529,78 @@
             "name": "غذا",
             "list": [
                 {
-                    "name": "سیب زمینی خورد کرده",
-                    "dicribtion": "دو عدد سیب زمینی",
-                    "price": 50,
-                    "price_double": 20,
-                    "image": 1
+                    "name": "چیکن استریپس",
+                    "price": 120,
+                    "image": 0
                 },
                 {
-                    "name": "سیب زمینی قارچ و پنیر",
-                    "dicribtion": "با پنیر پیتزا پ قارچ",
+                    "name": "پیتزا شیخ",
                     "price": 70,
-                    "price_double": 20,
-                    "image": 1
+                    "image": 0
                 },
                 {
-                    "name": "نان سیر",
-                    "dicribtion": "دو عدد نان سیر",
-                    "price": 40,
-                    "price_double": 20,
-                    "image": 1
+                    "name": "پیتزا آلفردو",
+                    "price": 170,
+                    "image": 0
+                },
+                {
+                    "name": "مک اند چیز",
+                    "price": 120,
+                    "image": 0
+                },
+                {
+                    "name": "پاستا آلفردو",
+                    "price": 140,
+                    "image": 0
+                },
+                {
+                    "name": "پاستا پستو",
+                    "price": 0,
+                    "image": 0
+                },
+                {
+                    "name": "پاستا پنه",
+                    "price": 140,
+                    "image": 0
+                },
+                {
+                    "name": "برگر",
+                    "price": 130,
+                    "image": 0
+                },
+                {
+                    "name": "برگر مرغ",
+                    "price": 110,
+                    "image": 0
+                },
+                {
+                    "name": "سیب زمینی آلفردو",
+                    "price": 120,
+                    "image": 0
                 }
             ]
-        }
+            
+        },
+        {
+            "name": "سالاد",
+            "list": [
+                {
+                    "name": "سالاد سزار",
+                    "price": 140,
+                    "image": 0
+                },
+                {
+                    "name": " سالاد یونانی",
+                    "price": 100,
+                    "image": 0
+                },
+                {
+                    "name": "سالاد فصل",
+                    "price": 60,
+                    "image": 0
+                }
+         ]
+        
+}
     ]
 }
