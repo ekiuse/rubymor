@@ -31,19 +31,19 @@ function ListItem(props: ListProps) {
                             : defaultPhoto
                     }
                     style={{
-                        width: "15rem",
-                        height: "15rem",
+                        width: "40%",
+                        maxWidth: "13rem",
                     }}
                 />
                 <Stack
                     style={{
                         justifyContent: "space-between",
                         gap: "0.2rem",
-                        height: "13rem",
-                        margin: "1rem 0",
+                        minHeight: "13rem",
+                        padding: "1.5rem 0",
                     }}
                 >
-                    <h3 style={{ margin: "0", fontSize: "1.8rem" }}>
+                    <h3 style={{ margin: "0", fontSize: "1.8rem", fontWeight: "normal", }}>
                         {props.data.name}
                     </h3>
                     <p style={{ margin: "0", fontSize: "1.3rem" }}>
@@ -64,12 +64,12 @@ function ListItem(props: ListProps) {
                         </div>
                     ) : (
                         <div>
-                            <span style={{ fontSize: "1.6rem" }}>نا موجود</span>
+                            <span style={{ fontSize: "1.6rem" }}>متغیر</span>
                         </div>
                     )}
                 </Stack>
             </Row>
-        </Card>
+        </Card >
     );
 }
 

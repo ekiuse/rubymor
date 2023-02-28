@@ -25,40 +25,10 @@ import { ReactComponent as Others } from "../../assets/svg/others.svg";
 function Categories() {
     return (
         <div>
-            {/* <AppBar
-                style={{
-                    position: "sticky",
-                    top: "-1px",
-                    height: "auto",
-                    padding: "1rem 0",
-                }}
-            >
-                <Row
-                    style={{
-                        width: "100%",
-                        justifyContent: "center",
-                        overflowX: "auto",
-                        overflowY: "auto",
-                    }}
-                >
-                    {MenuLists.categories.map(item => (
-                        <a href={"#" + item.name || "/notfound"}>
-                            <Button
-                                variant="filled"
-                                size="medium"
-                                style={{
-                                    width: "10rem",
-                                    height: "4.5rem",
-                                    fontSize: "1.5rem",
-                                    justifyContent: "center",
-                                }}
-                            >
-                                {item.name}
-                            </Button>
-                        </a>
-                    ))}
-                </Row>
-            </AppBar> */}
+            <AppBar style={{
+                position: "initial",
+                top: "0",
+            }}></AppBar>
             <Container
                 maxWidth="xl"
                 style={{ flexDirection: "column", padding: "4rem 2rem" }}
@@ -68,15 +38,15 @@ function Categories() {
                         id={item.tag ? item.tag : "null"}
                         style={{ padding: "2rem 0" }}
                     >
-                        <h1>{item.name} </h1>
-                        <Hr variant="dashed" />
+                        <h3 style={{ margin: "1rem", fontSize: "3rem" }}>{item.name}</h3>
+                        <Hr variant="dashed" style={{ border: "none", borderTop: "0.2rem dashed var(--primaryContainerColor, #c2e7ff)" }} />
                         <GridContainer
                             style={{ padding: "2rem" }}
                             rowGap={2}
                             columnGap={2}
                         >
                             {item.list.map(item => (
-                                <GridItem xl={4} lg={6} md={6} sm={12}>
+                                <GridItem xl={4} lg={6} md={12}>
                                     <ListItem data={item} />
                                 </GridItem>
                             ))}
@@ -91,34 +61,34 @@ function Categories() {
                     height: "auto",
                     padding: "1rem 0",
                     borderTop: "0.1rem solid #7d7d7d7d",
-                    backgroundColor: "#000",
+                    backgroundColor: "#1a1c18",
+                    overflowY: "auto",
                 }}
             >
                 <Row
                     style={{
                         width: "100%",
                         justifyContent: "center",
-                        overflowX: "auto",
-                        overflowY: "auto",
+                        gap: "1rem",
                     }}
                 >
                     <a href="#hot_drink">
-                        <Button variant="elevated" icon={<Hot />} />
+                        <Button variant="tonal" icon={<Hot />} />
                     </a>
                     <a href="#cold_drink">
-                        <Button variant="elevated" icon={<Cloud />} />
+                        <Button variant="tonal" icon={<Cloud />} />
                     </a>
                     <a href="#cake">
-                        <Button variant="elevated" icon={<Cake />} />
+                        <Button variant="tonal" icon={<Cake />} />
                     </a>
                     <a href="#breakfast">
-                        <Button variant="elevated" icon={<Brek />} />
+                        <Button variant="tonal" icon={<Brek />} />
                     </a>
                     <a href="#food">
-                        <Button variant="elevated" icon={<Food />} />
+                        <Button variant="tonal" icon={<Food />} />
                     </a>
                     <a href="#other">
-                        <Button variant="elevated" icon={<Others />} />
+                        <Button variant="tonal" icon={<Others />} />
                     </a>
                 </Row>
             </Footer>
