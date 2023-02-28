@@ -25,7 +25,12 @@ function Categories() {
                     padding: "1rem 0",
                 }}
             >
-                <Row style={{ width: "100%", justifyContent: "center" }}>
+                <Row
+                    style={{
+                        width: "100%",
+                        justifyContent: "center",
+                    }}
+                >
                     {MenuLists.categories.map(item => (
                         <a href={"#" + item.name || "/notfound"}>
                             <Button variant="filled" size="large">
