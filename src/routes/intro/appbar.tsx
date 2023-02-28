@@ -17,6 +17,7 @@ function Header() {
             >
                 <img src={logo} style={{ width: "16rem" }} />
                 <h1>RubYmor</h1>
+                <h2>به کافه روبیمور خوش آمدید</h2>
             </Stack>
         </AppBar>
     );
