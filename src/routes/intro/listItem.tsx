@@ -23,7 +23,7 @@ function ListItem(props: ListProps) {
                 overflow: "hidden",
             }}
         >
-            <Row style={{ direction: "rtl" }}>
+            <Row>
                 <img
                     src={
                         props.data.image ? images[props.data.image] : defaultPhoto

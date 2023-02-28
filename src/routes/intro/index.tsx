@@ -14,6 +14,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import Categories from "./categories";
 import Header from "./appbar";
+import Footerr from "./footer";
 
 function Intro() {
     const navigate = useNavigate();
@@ -23,6 +24,7 @@ function Intro() {
             <Main>
                 <Categories />
             </Main>
+            <Footerr />
         </Page>
     );
 }
