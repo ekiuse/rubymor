@@ -11,9 +11,16 @@ import {
     Spacer,
     Stack,
     Footer,
+    SvgIcon,
 } from "@yakad/ui";
 import ListItem from "./listItem";
 import MenuLists from "../../assets/json/menu.json";
+import { ReactComponent as Hot } from "../../assets/svg/Hot.svg";
+import { ReactComponent as Brek } from "../../assets/svg/Break.svg";
+import { ReactComponent as Cake } from "../../assets/svg/Cake.svg";
+import { ReactComponent as Food } from "../../assets/svg/Food.svg";
+import { ReactComponent as Cloud } from "../../assets/svg/Cloud.svg";
+import { ReactComponent as Others } from "../../assets/svg/others.svg";
 
 function Categories() {
     return (
@@ -57,8 +64,11 @@ function Categories() {
                 style={{ flexDirection: "column", padding: "4rem 2rem" }}
             >
                 {MenuLists.categories.map(item => (
-                    <div id={item.tag ? item.tag : "null"} style={{ padding: "2rem 0" }}>
-                        <h2>{item.name}</h2>
+                    <div
+                        id={item.tag ? item.tag : "null"}
+                        style={{ padding: "2rem 0" }}
+                    >
+                        <h1>{item.name} </h1>
                         <Hr variant="dashed" />
                         <GridContainer
                             style={{ padding: "2rem" }}
@@ -92,15 +102,27 @@ function Categories() {
                         overflowY: "auto",
                     }}
                 >
-                    <a href="#hot_drink"><Button variant="elevated">HOT</Button></a>
-                    <a href="#cold_drink"><Button variant="elevated">Cold</Button></a>
-                    <a href="#cake"><Button variant="elevated">Cake</Button></a>
-                    <a href="#breakfast"><Button variant="elevated">Break</Button></a>
-                    <a href="#food"><Button variant="elevated">Food</Button></a>
-                    <a href="#other"><Button variant="elevated">Other</Button></a>
+                    <a href="#hot_drink">
+                        <Button variant="elevated" icon={<Hot />} />
+                    </a>
+                    <a href="#cold_drink">
+                        <Button variant="elevated" icon={<Cloud />} />
+                    </a>
+                    <a href="#cake">
+                        <Button variant="elevated" icon={<Cake />} />
+                    </a>
+                    <a href="#breakfast">
+                        <Button variant="elevated" icon={<Brek />} />
+                    </a>
+                    <a href="#food">
+                        <Button variant="elevated" icon={<Food />} />
+                    </a>
+                    <a href="#other">
+                        <Button variant="elevated" icon={<Others />} />
+                    </a>
                 </Row>
             </Footer>
-        </div >
+        </div>
     );
 }
 
