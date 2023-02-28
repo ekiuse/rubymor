@@ -1,5 +1,6 @@
 import { Row, Spacer, Stack, Card } from "@yakad/ui";
-import images from "../../assets/images/index";
+import images from "../../assets/images/foods";
+import defaultPhoto from "../../assets/images/defaultPhoto.png";
 
 interface ListItems {
     name: string;
@@ -25,7 +26,7 @@ function ListItem(props: ListProps) {
             <Row style={{ direction: "rtl" }}>
                 <img
                     src={
-                        props.data.image ? images[props.data.image] : images[0]
+                        props.data.image ? images[props.data.image] : defaultPhoto
                     }
                     style={{
                         width: "15rem",
