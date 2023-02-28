@@ -2,34 +2,177 @@
     "name": "rubymor",
     "categories": [
         {
+            "name": "بار اسپرسو",
+            "list": [
+                {
+                    "name": "اسپرسو",
+                    "price": 20,
+                    "price_double": 32,
+                    "image": 0
+                },
+                {
+                    "name": "امریکانو",
+                    "price": 28,
+                    "price_double": 32,
+                    "image": 0
+                },
+                {
+                    "name": "کاپوچینو",
+                    "price": 35,
+                    "price_double": 40,
+                    "image": 0
+                },
+                {
+                    "name": "لته",
+                    "price": 38,
+                    "price_double": 43,
+                    "image": 0
+                },
+                {
+                    "name": "فلت وایت",
+                    "price": 35,
+                    "price_double": 40,
+                    "image": 0
+                },
+                {
+                    "name": "موکا",
+                    "price": 40,
+                    "price_double": 45,
+                    "image": 0
+                },
+                {
+                    "name": "موکاچینو",
+                    "price": 48,
+                    "price_double": 53,
+                    "image": 0
+                },
+                {
+                    "name": "ماکیاتو",
+                    "price": 40,
+                    "price_double": 45,
+                    "image": 0
+                },
+                {
+                    "name": "رومانو",
+                    "price": 30,
+                    "price_double": 35,
+                    "image": 0
+                },
+                {
+                    "name": "هات اسپرسو",
+                    "price": 65,
+                    "price_double": 70,
+                    "image": 0
+                },
+                {
+                    "name": "وایت اسپرسو",
+                    "price": 65,
+                    "price_double": 70,
+                    "image": 0
+                },
+                {
+                    "name": "هانی کافی",
+                    "price": 35,
+                    "price_double": 40,
+                    "image": 0
+                },
+                {
+                    "name": "شیر نسکافه",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "شیر کاکائو",
+                    "price": 38,
+                    "image": 0
+                },
+                {
+                    "name": "هات چاکلت",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "وایت چاکلت",
+                    "price": 40,
+                    "price_double": 53,
+                    "image": 0
+                },
+                {
+                    "name": "میکس چاکلت",
+                    "price": 50,
+                    "image": 0
+                },
+                {
+                    "name": "دالگونا",
+                    "price": 45,
+                    "image": 0
+                },
+                {
+                    "name": "ماچا",
+                    "price": 45,
+                    "image": 0
+                },
+                {
+                    "name": "لته ماچا",
+                    "price": 55,
+                    "image": 0
+                },
+                {
+                    "name": "ماسالا",
+                    "price": 40,
+                    "image": 0
+                },
+                {
+                    "name": "کوک",
+                    "price": 45,
+                    "image": 0
+                },
+                {
+                    "name": "شیر عسل",
+                    "price": 38,
+                    "image": 0
+                },
+                {
+                    "name": "شیر داغ",
+                    "price": 20,
+                    "image": 0
+                },
+                {
+                    "name": "کوکووایت",
+                    "price": 50,
+                    "image": 0
+                }
+            ]
+        },
+        {
             "name": "صبحانه",
             "list": [
                 {
                     "name": "املت ایرانی",
                     "dicribtion": "دو عدد تخم مرغ با گوجه",
                     "price": 50,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "بشقاب سنتی",
                     "dicribtion": "تخم مرغ-خرما-پنیر-ارده-شیره انگور-گردو",
                     "price": 60,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "بشقاب  ویژه",
                     "dicribtion": "سوسیس تخم مرغ-لوبیا-زیتون-کاهو-میوه-آبمیوه",
-                    "price": 50,
+                    "price": 100,
                     "price_double": 20,
-                    "image": 1
+                    "image": 0
                 },
                 {
 
                  
                     "name": "فرانسه",
                     "dicribtion": "تخم مرغ-مرغ-قارچ-پنیر موزارلا-کلم-آبمیوه",
-                    "price": 50,
-                    "image": 1
+                    "price": 120,
+                    "image": 0
                 }
             ]
         },
@@ -39,38 +182,37 @@
                 {
                     "name": "سیب زمینی خورد کرده",
                     "price": 50,
-                    "price_double": 20,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "سیب زمینی قارچ و پنیر",
                     "price": 70,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "نان سیر",
                     "price": 40,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "اسنک مرغ",
                     "price": 0,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "اسنک گوشت",
                     "price": 0,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "بشقاب مزه",
                     "price": 90,
-                    "image": 1
+                    "image": 0
                 },
                 {
                     "name": "سیب زمینی تنوری",
                     "price": 70,
-                    "image": 1
+                    "image": 0
                 }
             ]
         },
@@ -78,27 +220,78 @@
             "name": "غذا",
             "list": [
                 {
-                    "name": "سیب زمینی خورد کرده",
-                    "dicribtion": "دو عدد سیب زمینی",
-                    "price": 50,
-                    "price_double": 20,
-                    "image": 1
+                    "name": "چیکن استریپس",
+                    "price": 120,
+                    "image": 0
                 },
                 {
-                    "name": "سیب زمینی قارچ و پنیر",
-                    "dicribtion": "با پنیر پیتزا پ قارچ",
+                    "name": "پیتزا شیخ",
                     "price": 70,
-                    "price_double": 20,
-                    "image": 1
+                    "image": 0
                 },
                 {
-                    "name": "نان سیر",
-                    "dicribtion": "دو عدد نان سیر",
-                    "price": 40,
-                    "price_double": 20,
-                    "image": 1
+                    "name": "پیتزا آلفردو",
+                    "price": 170,
+                    "image": 0
+                },
+                {
+                    "name": "مک اند چیز",
+                    "price": 120,
+                    "image": 0
+                },
+                {
+                    "name": "پاستا آلفردو",
+                    "price": 140,
+                    "image": 0
+                },
+                {
+                    "name": "پاستا پستو",
+                    "price": 0,
+                    "image": 0
+                },
+                {
+                    "name": "پاستا پنه",
+                    "price": 140,
+                    "image": 0
+                },
+                {
+                    "name": "برگر",
+                    "price": 130,
+                    "image": 0
+                },
+                {
+                    "name": "برگر مرغ",
+                    "price": 110,
+                    "image": 0
+                },
+                {
+                    "name": "سیب زمینی آلفردو",
+                    "price": 120,
+                    "image": 0
                 }
             ]
-        }
+            
+        },
+        {
+            "name": "سالاد",
+            "list": [
+                {
+                    "name": "سالاد سزار",
+                    "price": 140,
+                    "image": 0
+                },
+                {
+                    "name": " سالاد یونانی",
+                    "price": 100,
+                    "image": 0
+                },
+                {
+                    "name": "سالاد فصل",
+                    "price": 60,
+                    "image": 0
+                }
+         ]
+        
+}
     ]
 }
