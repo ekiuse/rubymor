@@ -3,40 +3,24 @@
     "categories": [
         {
             "name": "بار اسپرسو",
-            "tag": "hot_drink",
+            "tag": "espresso_bar",
             "list": [
                 {
-                    "name": "اسپرسو 30A/70R",
+                    "name": "اسپرسو",
+                    "price30": 28,
+                    "price_double30": 32,
+                    "price70": 32,
+                    "price_double70": 38,
                     "price": 28,
                     "price_double": 32,
                     "image": 0
                 },
                 {
-                    "name": "اسپرسو 70A/30R",
-                    "price": 32,
-                    "price_double": 38,
-                    "image": 0
-                },
-                {
-                    "name": "اسپرسو Full",
-                    "price": 28,
-                    "price_double": 32,
-                    "image": 0
-                },
-                {
-                    "name": "آمریکانو 30A/70R",
-                    "price": 28,
-                    "price_double": 32,
-                    "image": 0
-                },
-                {
-                    "name": "آمریکانو 70A/30R",
-                    "price": 32,
-                    "price_double": 38,
-                    "image": 0
-                },
-                {
-                    "name": "امریکانو full",
+                    "name": "آمریکانو",
+                    "price30": 28,
+                    "price_double30": 32,
+                    "price70": 32,
+                    "price_double70": 38,
                     "price": 28,
                     "price_double": 32,
                     "image": 0
@@ -103,6 +87,7 @@
                 },
                 {
                     "name": "اسپشیال",
+                    "special": true,
                     "price": 40,
                     "image": 0
                 }
@@ -233,13 +218,14 @@
                 },
                 {
                     "name": "چای مخصوص روبیمور",
-                    "dicribtion": "شیر،زعفران،گلاب،دارچین",
+                    "special": true,
+                    "dicribtion": "شیر، زعفران، گلاب، دارچین",
                     "price": 50,
                     "image": 0
                 },
                 {
                     "name": "انواع دمنوش",
-                    "dicribtion": "به لیمو،سارنارنج",
+                    "dicribtion": "به لیمو، سارنارنج",
                     "price": 40,
                     "image": 0
                 },
@@ -252,7 +238,7 @@
         },
         {
             "name": "بار سرد",
-            "tag": "cold_drink",
+            "tag": "cold_bar",
             "list": [
                 {
                     "name": "ایس آمریکانو",
@@ -313,13 +299,13 @@
             "list": [
                 {
                     "name": "جوکر پنسل",
-                    "dicribtion": "لیموناد،گریپ،فروت،سیروپ،نارگیل،عرق مرکبات،پنیرک",
+                    "dicribtion": "لیموناد، گریپ، فروت، سیروپ، نارگیل، عرق مرکبات، پنیرک",
                     "price": 75,
                     "image": 0
                 },
                 {
                     "name": "منگو لوندر",
-                    "dicribtion": "عصاره انبه،بلو کاراسائو،نعنا،پنیرک",
+                    "dicribtion": "عصاره انبه، بلو کاراسائو، نعنا، پنیرک",
                     "price": 50,
                     "image": 0
                 },
@@ -331,13 +317,13 @@
                 },
                 {
                     "name": "تروپیکال تاچ",
-                    "dicribtion": "عصاره اناناس ،سیب ترش،آب انبه،لیمو ،سودا",
+                    "dicribtion": "عصاره اناناس، سیب ترش، آب انبه، لیمو، سودا",
                     "price": 70,
                     "image": 0
                 },
                 {
                     "name": "بلو اسکای",
-                    "dicribtion": "بلو کاراسائو  ، سیب ترش،لیمو ،انرژی زا ",
+                    "dicribtion": "بلو کاراسائو، سیب ترش، لیمو، انرژی زا ",
                     "price": 60,
                     "image": 0
                 },
@@ -478,7 +464,8 @@
                 },
                 {
                     "name": "ویژه روبیمور",
-                    "dicribtion": " بلوکاراسائو،سیروپ،نعنا،کرن بری،پرتغال،لیمو،پنیرک،",
+                    "special": true,
+                    "dicribtion": "بلوکاراسائو، سیروپ، نعنا، کرن بری، پرتغال، لیمو، پنیرک",
                     "price": 80,
                     "image": 0
                 }
@@ -500,6 +487,7 @@
                 },
                 {
                     "name": "کیک بستنی روبیمور",
+                    "special": true,
                     "price": 90,
                     "image": 0
                 },
@@ -625,7 +613,7 @@
         },
         {
             "name": "سالاد",
-            "tag": "other",
+            "tag": "salad",
             "list": [
                 {
                     "name": "سالاد سزار",
