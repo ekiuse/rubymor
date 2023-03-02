@@ -228,11 +228,6 @@
                     "image": 0
                 },
                 {
-                    "name": "انار",
-                    "price": 40,
-                    "image": 0
-                },
-                {
                     "name": "چای مخصوص روبیمور",
                     "dicribtion": "شیر،زعفران،گلاب،دارچین",
                     "price": 50,
@@ -256,7 +251,7 @@
             "tag": "cold_drink",
             "list": [
                 {
-                    "name": "ایس آمریکانو",
+                    "name": "آیس امریکانو",
                     "price": 33,
                     "price_double": 38,
                     "image": 0
