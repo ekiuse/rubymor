@@ -20,9 +20,16 @@ html {
 body {
     margin: 0;
     scroll-behavior: smooth;
+    padding-bottom: env(safe-area-inset-bottom);
 }
 
 :-webkit-any-link {
     color: inherit;
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    #botNavBar {
+        padding-bottom: 1.6rem;
+    }
 }
