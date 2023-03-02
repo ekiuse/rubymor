@@ -1,24 +1,38 @@
-import { Footer, Container, SvgIcon, Spacer, Row, Button, Hr, Stack } from "@yakad/ui";
+import {
+    Footer,
+    Container,
+    SvgIcon,
+    Spacer,
+    Row,
+    Button,
+    Hr,
+    Stack,
+} from "@yakad/ui";
 import logo from "../../assets/images/logo512.png";
-import { ReactComponent as Hot } from "../../assets/svg/Hot.svg";
-import { ReactComponent as Brek } from "../../assets/svg/Break.svg";
-import { ReactComponent as Cake } from "../../assets/svg/Cake.svg";
-import { ReactComponent as Food } from "../../assets/svg/Food.svg";
-import { ReactComponent as Cloud } from "../../assets/svg/Cloud.svg";
-import { ReactComponent as Others } from "../../assets/svg/others.svg";
+import { ReactComponent as Hot } from "../../assets/svg/coffee.svg";
+import { ReactComponent as Brek } from "../../assets/svg/egg-fried.svg";
+import { ReactComponent as Cake } from "../../assets/svg/cupcake.svg";
+import { ReactComponent as Food } from "../../assets/svg/hamburger.svg";
+import { ReactComponent as Cloud } from "../../assets/svg/glass-cocktail.svg";
+import { ReactComponent as Others } from "../../assets/svg/bottle-soda-classic.svg";
 
 function About() {
     return (
         <Footer
+            id="footer"
             style={{
                 padding: "2rem",
                 backgroundColor: "#222222",
             }}
         >
-            <Container
-                maxWidth="xs"
-            >
-                <Stack style={{ width: "100%", alignItems: "center", textAlign: "center" }}>
+            <Container maxWidth="xs">
+                <Stack
+                    style={{
+                        width: "100%",
+                        alignItems: "center",
+                        textAlign: "center",
+                    }}
+                >
                     <img src={logo} style={{ width: "6rem" }} />
                     <h2 style={{ margin: 0, fontFamily: "Arial" }}>RubYmor</h2>
                     <h2 style={{ margin: 0 }}>
@@ -28,7 +42,10 @@ function About() {
                     <h2 style={{ margin: 0 }}>تلفن: 04511111111</h2>
                     <Hr variant="shortLine" />
                     <h2 style={{ fontFamily: "Arial", fontSize: "1.3rem" }}>
-                        designed by <a href="http://arjcloud.ir" target="blank">arjcloud.ir</a>
+                        designed by{" "}
+                        <a href="http://arjcloud.ir" target="blank">
+                            arjcloud.ir
+                        </a>
                     </h2>
                 </Stack>
             </Container>
