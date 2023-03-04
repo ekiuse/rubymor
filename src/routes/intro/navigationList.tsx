@@ -11,7 +11,9 @@ function NavigationList() {
             {MenuLists.categories.map(item => (
                 <ListItem>
                     <a href={"#" + item.tag || "/notfound"}>
-                        <Button borderStyle="semi">{item.name}</Button>
+                        <Button borderStyle="semi" style={{ width: "100%" }}>
+                            {item.name}
+                        </Button>
                     </a>
                 </ListItem>
             ))}
