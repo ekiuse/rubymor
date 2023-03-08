@@ -39,7 +39,7 @@ function About() {
                         آدرس: خیابان حافظ به سمت پل سعدی، نرسیده به پل جنب دور
                         برگردان، روبروی دانشکده پرستاری
                     </h2>
-                    <h2 style={{ margin: 0 }}>تلفن:09143571040 فروتن </h2>
+                    <h2 style={{ margin: 0 }}>09143571040 فروتن </h2>
                     <h2 style={{ margin: 0 }}>09145999923 حسینی</h2>
                     <Hr variant="shortLine" />
                     <h2 style={{ fontFamily: "Arial", fontSize: "1.3rem" }}>
