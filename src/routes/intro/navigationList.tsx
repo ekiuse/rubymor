@@ -3,9 +3,6 @@ import { Button, List, ListItem } from "@yakad/ui";
 import MenuLists from "../../assets/json/menu.json";
 
 function NavigationList() {
-    const [collapsedListRsitation, setcollapsedListRsitation] = React.useState(
-        true
-    );
     return (
         <List direction="column">
             {MenuLists.categories.map(item => (

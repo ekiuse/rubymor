@@ -15,6 +15,7 @@ import React, { useState } from "react";
 import Header from "./appbar";
 import { About, BotNavBar } from "./footer";
 import { ReactComponent as Menu } from "../../assets/svg/menu.svg";
+import { ReactComponent as Close } from "../../assets/svg/close.svg";
 import logo from "../../assets/images/logo512.png";
 
 function Intro() {
@@ -40,7 +41,7 @@ function Intro() {
                 </a>
             </AppBar>
             {/* {matches ? <h1>true</h1> : <h1>false</h1>} */}
-            <Main>
+            <Main onClick={() => setNavOpen(false)}>
                 <Categories />
             </Main>
             <BotNavBar />
@@ -49,9 +50,9 @@ function Intro() {
                 anchor="right"
                 open={navOpen}
                 onClick={toggleNavOpen}
-                style={{ top: "0" }}
+                style={{ top: "0", height: "100%" }}
             >
-                <Button icon={<Menu />} />
+                <Button icon={<Close />} style={{ marginRight: "0.5rem" }} />
                 <NavigationList />
                 <ListItem>
                     <a href={"#footer"}>
